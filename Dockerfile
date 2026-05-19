@@ -20,4 +20,4 @@ RUN mkdir -p /app/config
 EXPOSE 8765
 
 ENTRYPOINT ["mcp-unify"]
-CMD ["serve", "--config", "/app/config/gateway.yaml", "--host", "0.0.0.0", "--port", "8765"]
+CMD ["mcp-gateway", "serve", "--config", "/app/config/gateway.yaml", "--host", "0.0.0.0", "--port", "8765"]
