@@ -32,6 +32,7 @@ mcp-unify (1 process)
 ```
 
 ## Install
+## Docker
 
 ```bash
 pip install mcp-unify
